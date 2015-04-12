@@ -1,10 +1,27 @@
 body {
-	background-color:silver;
+	background-color: #F2F2F2;
+	text-align: center;
+	font-family: Arial, sans-serif;
 }
+
 h1 {
-	color: yellow;
-	background-color: blue;
+	color: #421C1C;
 }
-h3, p {
-	color:aqua;
+
+#slogan {
+	font-style: italic;
+	font-size: 20px;
+}
+
+a {
+	padding: 7px;
+	text-decoration: none;
+	color: #F2EA8C;
+	background-color: #1D2C40;
+	font-style: italic;
+	font-size: 20px;
+}
+
+hr {
+	padding: 2px;
 }
