@@ -1,10 +1,15 @@
 body {
-	background-color: #F2F2F2;
+	background-color: rgba(255, 207,0,.25);
+	/*background: -webkit-linear-gradient(left, rgba(244,0,0,.75), #FC0, rgba(244,0,0,.75));*/ 
+	/*background-image: url(../images/newbgpic.jpeg);*/
+	/*background-size: cover;*/
 	text-align: center;
 	font-family: Arial, sans-serif;
 }
 
 h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
 	color: #421C1C;
 }
 
@@ -23,5 +28,22 @@ a {
 }
 
 hr {
+	color: rgb(255,255,0);
 	padding: 2px;
 }
+
+p {
+	margin: 30px;
+	font-family: "Times New Roman", serif;
+}
+
+/*.big-bar {
+	border: none;
+	border-bottom: 5px dashed rgba(0,0,0,.25);
+}
+
+.small-bar {
+	border: none;
+	width: 50%;
+	border-bottom: 5px dashed rgba(0,0,0,.25);
+}*/
