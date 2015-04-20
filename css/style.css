@@ -4,13 +4,16 @@ body {
 	/*background-image: url(../images/newbgpic.jpeg);*/
 	/*background-size: cover;*/
 	text-align: center;
-	font-family: Arial, sans-serif;
 }
 
 h1 {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 40px;
 	color: #421C1C;
+}
+
+p {
+	font-family: 'Alegreya', serif;
 }
 
 #slogan {
@@ -30,11 +33,6 @@ a {
 hr {
 	color: rgb(255,255,0);
 	padding: 2px;
-}
-
-p {
-	margin: 30px;
-	font-family: "Times New Roman", serif;
 }
 
 /*.big-bar {
