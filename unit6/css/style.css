@@ -1,0 +1,95 @@
+body {
+	width: 960px;
+	margin: 0 2em;
+	font-family: 'Arvo', serif;
+	background-color: #FFF0F0;
+}
+
+header {
+	background-color: #996753;
+	padding: 1.5em;
+	font-family: 'Exo', sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	color: #FFF0F0;
+	font-size: 36px;
+}
+
+nav{
+	background-color: #CCB5AC;
+}
+
+nav a {
+	color: #FFF0F0;
+	text-decoration: none;
+	display: block;
+	width: 120px;
+	text-align: center;
+	float: right;
+	background-color: #CCB5AC;
+	font-family: 'Exo', sans-serif;
+	padding: .75em;
+}
+
+nav a:hover {
+	background-color: #B7CCAC
+}
+
+.clearfix:after {
+  display: block;
+  content: " ";
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #B7CCAC;
+}
+
+#wrapper {
+	width: 56%;
+	float: left;
+	padding: 2%;
+}
+
+#picwrapper {
+	width: 36%;
+	height: auto;
+	float: right;
+	display: block;
+	padding: 2% 0;
+}
+
+#picwrapper img {
+	width: 100%
+}
+
+footer {
+	display: block;
+	float: left;
+	background-color: #996753;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
+
+footer a {
+	display: inline-block;
+	padding: 5px;
+}
+
+#fampic {
+	padding: 1em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footcopy {
+	color: #FFF0F0;
+}
