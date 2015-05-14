@@ -1,13 +1,13 @@
 body {
 	width: 960px;
-	margin: 0 2em;
+	margin: 0 24px;
 	font-family: 'Arvo', serif;
 	background-color: #FFF0F0;
 }
 
 header {
 	background-color: #996753;
-	padding: 1.5em;
+	padding: 18px;
 	font-family: 'Exo', sans-serif;
 	font-weight: normal;
 }
@@ -17,20 +17,21 @@ h1 {
 	font-size: 36px;
 }
 
-nav{
+nav {
 	background-color: #CCB5AC;
+	clear: both;
 }
 
 nav a {
 	color: #FFF0F0;
 	text-decoration: none;
 	display: block;
-	width: 120px;
+	width: 100px;
 	text-align: center;
 	float: right;
 	background-color: #CCB5AC;
 	font-family: 'Exo', sans-serif;
-	padding: .75em;
+	padding: 9px;
 }
 
 nav a:hover {
@@ -51,31 +52,33 @@ a {
 	color: #B7CCAC;
 }
 
-#wrapper {
-	width: 56%;
-	float: left;
-	padding: 2%;
+.row {
+	clear: both;
+	margin: 10px 0;
+	padding: 20px 0;
+	background-color: rgba(176,255,176,.20);
 }
 
-#picwrapper {
-	width: 36%;
-	height: auto;
+.picright {
 	float: right;
-	display: block;
-	padding: 2% 0;
 }
 
-#picwrapper img {
-	width: 100%
+.picleft {
+	float: left;
+}
+
+.row img {
+	padding: 15px;
 }
 
 footer {
 	display: block;
-	float: left;
 	background-color: #996753;
-	width: 100%;
 	text-align: center;
 	padding: 10px;
+	clear: both;
+	color: #B7CCAC;
+	font-family: 'Exo', sans-serif;
 }
 
 footer a {
