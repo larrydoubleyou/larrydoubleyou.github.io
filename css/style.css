@@ -1,3 +1,8 @@
+/*@font-face {
+	font-family: "Komika Boss";
+	src: ;
+}*/
+
 body {
 	font-family: "Source Sans Pro", Arial, sans-serif;
 	background-color: #FFFEFB;
@@ -15,9 +20,9 @@ h1 {
 	background-color: #515151;
 	margin: 0;
 	padding: .5em;
-	/*text-align: left;*/
 	font-size: 3em;
 	font-weight: normal;
+	text-shadow: 1px 1px .75px #313131;
 }
 
 #headbutt {
@@ -80,16 +85,78 @@ nav a:hover {
 
 #imgwrapper {
 	width: 85%;
-	margin: 5em auto;
-	padding: 1.25em;
+	margin: 10% auto;
 }
 
-img {
+#imgwrapper img {
 	display: block;
 	float: left;
-	width: 40%;
-	padding: 1em;
-	/*background-color: black;*/
+	width: 44%;
+	margin: 3%;
+	box-shadow: 10px 10px 0 -3px #C7C7C7;
+}
+
+#imgwrapper img:hover {
+	/*box-shadow: 10px 10px 0 -3px #C7C7C7;*/
+}
+
+#workwrapper {
+	width: 80%;
+	margin: 10% auto;
+	padding: 2%;
+	outline-style: dashed;
+	outline-color: #3CFFF9;
+}
+
+#workwrapper img {
+	display: block;
+	float: left;
+	width: 19%;
+	margin: 3%;
+	/*box-shadow: 8px 8px 0 -3px #C7C7C7*/
+}
+
+#workwrapper img:hover {
+	box-shadow: 8px 8px 0 -3px #C7C7C7;
+}
+
+#aboutwrapper {
+	width: 75%;
+	margin: 10% auto;
+	padding: 5%;
+	outline-style: dashed;
+	outline-color: #FFFF04;
+}
+
+#aboutwrapper img {
+	display: inline-block;
+	float: left;
+	padding: 0 4% 4% 0;
+}
+
+#aboutwrapper p {
+	font-size: 1.33em;
+}
+
+#aboutaccent {
+	font-size: 1.5em;
+	font-family: "Fredoka One", Arial, serif;
+	color: #515151;
+}
+
+#contactwrapper {
+	width: 50%;
+	margin: 17%;
+	padding: 5%;
+	font-size: 1.25em;
+	outline-style: dashed;
+	outline-color: #FF00AF;
+}
+
+#contactwrapper a {
+	text-decoration: none;
+	font-family: "Fredoka One", Arial, serif;
+	color: #717171;
 }
 
 footer {
@@ -97,7 +164,6 @@ footer {
 	background-color: #C7C7C7;
 	padding: 0;
 	margin: 0;
-	/*text-align: center;*/
 }
 
 footer a {
@@ -126,9 +192,14 @@ footer p {
 }
 
 @media only screen and (max-width: 768px) {
+	#workwrapper img {
+		width: 46%;
+		margin: 1% 0;
+	}
 	img {
 		clear: both;
-		width: 75%;
+		width: 100%;
+		margin: 1% 0;
 	}
 }
 
@@ -139,8 +210,8 @@ footer p {
 
 	nav a {
 		clear: both;
+		float: none;
 		display: block;
-		width: 100%;
 		text-align: center;
 	}
 
@@ -161,6 +232,14 @@ footer p {
 	}
 
 	#imgwrapper {
+		display: none;
+	}
+
+	#workwrapper {
+		display: none;
+	}
+
+	#aboutwrapper {
 		display: none;
 	}
 }
