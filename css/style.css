@@ -29,7 +29,7 @@ h1 {
 	padding: 3%;
 	font-size: 2.75em;
 	font-weight: normal;
-	text-shadow: 1px 1px .75px #313131;
+	/*text-shadow: 1px 1px .25px #FFFEFB;*/
 }
 
 #headbutt {
@@ -52,6 +52,7 @@ h1 {
 h1:hover {
 	background-color: #3CFFF9;
 	color: #A1A1A1;
+	text-shadow: 1px 1px .75px #313131;
 }
 
 h1:hover .iyel {
